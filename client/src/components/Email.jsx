@@ -3,6 +3,7 @@ import React from 'react';
 var Email = (props) => {
   return (
     <div className="AJemail">
+      <hr className="AJemailspacer"></hr>
       <div className="AJemailtitle">Sign up for REI emails</div>
       <div className="AJemailsubtext">Co-op offers, events & cool new gear</div>
       <form className="AJemailform">

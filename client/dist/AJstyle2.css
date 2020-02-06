@@ -79,6 +79,18 @@ table {
 }
 /* #endregion */
 
+.AJemailspacer {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: black;
+	width: 1200px;
+	border: 0;
+	border-top: 1px solid #ccc;
+
+	box-sizing: content-box;
+	height: 0;
+}
+
 .AJemail {
 	display: flex;
 	flex-direction: column;
@@ -92,6 +104,7 @@ table {
 
 .AJemailtitle {
 	font: 21.33px 'Georgia',serif;
+	margin-top: 45px;
 	margin-bottom: 12px;
 	font-weight: 500;
 	width: 100%;
