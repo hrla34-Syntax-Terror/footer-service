@@ -79,5 +79,73 @@ table {
 /* #endregion */
 
 .AJemail {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0 30px 27px;
+	background-color: #fff;
+	font-size: 16px;
+	width: 100%;
+}
+
+.AJemailtitle {
+	font: 21.33px 'Georgia',serif;
+	margin-bottom: 12px;
+	font-weight: 500;
+	width: 100%;
+	text-align: center;
+}
+
+.AJemailsubtext {
+	font: 16px 'Roboto', sans-serif;
+	margin: 0 0 12px;
+	font-size: 16px;
+	width: 100%;
+	text-align: center;
+}
+
+.AJemailform {
+	display: flex;
+	align-items: center;
+}
+
+.AJemailinputgroup {
+	display: flex;
+	flex-direction: column;
+	margin: 0 16px 16px 0;
+}
+
+.AJemailinputgroup label {
+	font-size: 14px;
+	margin-bottom: 4px;
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.AJemailinputgroup input {
+	box-sizing: border-box;
+	padding: 12px 8px;
+	border: 1px solid #c5c5c5;
+	border-radius: 3px;
+	background-color: #fff;
+	
+	width: 430px;
+}
+
+.AJemailformbutton {
+	box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 12px 16px;
+	border: 1px solid #000;
+	border-radius: 2px;
+
+	background-color: #000;
+
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+
+	height: auto;
 	
 }
