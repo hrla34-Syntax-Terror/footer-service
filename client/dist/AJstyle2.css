@@ -236,3 +236,35 @@ table {
 .AJengagelink:hover {
 	color: #fff;
 }
+
+/* #endregion */
+
+/* #region links */
+
+.AJlinks {
+	display: flex;
+	width: 1200px;
+	padding: 40px;
+	border-bottom: 1px solid #666;
+
+	background: url(https://hrla34-syntax-terror-anthony.s3-us-west-1.amazonaws.com/trees.svg) 73% 100% no-repeat;
+	background-size: 128px;
+}
+
+.AJlinks ul {
+	width: 25%;
+	box-sizing: border-box;
+
+	padding: 0 30px;
+}
+
+.AJlinks li {
+	color: #ccc;
+	font: 16px 'Roboto', sans-serif;
+	width: 100%;
+	padding-bottom: 11px;
+}
+
+.AJlinks li:hover {
+	color: #fff;
+}
