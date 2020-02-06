@@ -343,43 +343,79 @@ table {
 /* #region legal */
 
 .AJlegal {
+	max-width: 1200px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 40px;
 
+	color: #ccc;
+	fill: #ccc;
 }
 
 .AJsocials {
-
+	display: flex;
+	padding-bottom: 20px;
+	margin: 0 auto;
 }
 
 .AJphoneapp {
-
+	display: flex;
+	flex-direction: row;
+	padding: 0 30px;
+	width: 50%;
 }
 
 .AJphoneappicon {
-
+	width: 70px;
+	height: 70px;
+	margin-top: -10px;
 }
 
 .AJphoneapptext {
+	font-size: 16px;
+	color: #ccc;
+	line-height: 1.5;
+	font-family: 'Roboto', sans-serif;
 
+	padding-bottom: 13px;
 }
 
-.AJsocialplatformcontainer{
-
+.AJsocialplatformcontainer {
+	width: 50%;
 }
 
 .AJsocialplatforms {
-
+	width: 35px;
+	height: 35px;
+	
+	padding: 0 30px 11px 0;
 }
-
 .AJcopyright {
-
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
 }
 
-.AJlegallinkcontainer {
-
+.AJlegallinkscontainer {
+	display: flex;
+	flex-direction: row;
+	padding: 22px 0 12px;
 }
 
 .AJlegallink {
-	
+	color: #ccc;
+
+	line-height: 16px;
+	padding: 0 8px 11px;
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
 }
+
+.AJlegallink:hover {
+	color: #fff;
+	text-decoration: underline;
+
+}
+
 
 /* #endregion */

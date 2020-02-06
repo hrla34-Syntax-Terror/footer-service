@@ -5,6 +5,7 @@ import Engage from './Engage.jsx';
 import Links from './Links.jsx';
 import Contact from './Contact.jsx';
 import Difference from './Difference.jsx';
+import Legal from './Legal.jsx';
 
 class Footer extends React.Component {
   constructor(props) {
@@ -14,7 +15,6 @@ class Footer extends React.Component {
   render() {
     return (
       <div className="AJfootwrapper">
-        Footer
         <Feedback></Feedback>
         <Email></Email>
         <div className="AJbottomfooter">
@@ -22,6 +22,7 @@ class Footer extends React.Component {
           <Links></Links>
           <Contact></Contact>
           <Difference></Difference>
+          <Legal></Legal>
         </div>
       </div>
     )
