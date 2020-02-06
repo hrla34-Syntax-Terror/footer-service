@@ -1,17 +1,40 @@
 {
-  "name": "",
-  "version": "",
+  "name": "FEC-Anthony-Footer",
+  "version": "1.0.0",
   "description": "",
-  "author": "",
+  "author": "Anthony Jung",
   "license": "",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "test": "jest",
+    "start": "node server/index.js",
+    "build": "webpack -d -w"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "eslint": "^6.8.0",
+    "express": "^4.17.1",
+    "jest": "^25.1.0",
+    "jquery": "^3.4.1",
+    "mongoose": "^5.8.10",
+    "morgan": "^1.9.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "eslint-config-hackreactor": "github:reactorcore/eslint-config-hackreactor",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
   }
 }
