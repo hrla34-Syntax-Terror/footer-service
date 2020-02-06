@@ -1,5 +1,6 @@
 import React from 'react';
 import Feedback from './Feedback.jsx';
+import Email from './Email.jsx';
 
 class Footer extends React.Component {
   constructor(props) {
@@ -11,6 +12,7 @@ class Footer extends React.Component {
       <div>
         Footer
         <Feedback></Feedback>
+        <Email></Email>
       </div>
     )
   }

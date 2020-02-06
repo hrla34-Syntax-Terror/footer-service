@@ -53,7 +53,7 @@ table {
 /* #endregion */
 /*-------------------- END: CSS RESET -------------------- */
 
-
+/* #region feedback */
 .AJfeedback {
 	display: flex;
 	justify-content: center;
@@ -75,4 +75,9 @@ table {
 	color: #004e00;
 	text-decoration: underline;
 	cursor: pointer;
+}
+/* #endregion */
+
+.AJemail {
+	
 }
