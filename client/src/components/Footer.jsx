@@ -1,6 +1,7 @@
 import React from 'react';
 import Feedback from './Feedback.jsx';
 import Email from './Email.jsx';
+import Engage from './Engage.jsx';
 
 class Footer extends React.Component {
   constructor(props) {
@@ -9,10 +10,13 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="AJfootwrapper">
         Footer
         <Feedback></Feedback>
         <Email></Email>
+        <div className="AJbottomfooter">
+          <Engage></Engage>
+        </div>
       </div>
     )
   }

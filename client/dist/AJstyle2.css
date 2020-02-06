@@ -53,12 +53,27 @@ table {
 /* #endregion */
 /*-------------------- END: CSS RESET -------------------- */
 
+#AJfooter {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.AJfootwrapper{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 /* #region feedback */
 .AJfeedback {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 36px 0;
+	max-width: 1200px;
 }
 
 .AJfooterTrees {
@@ -79,6 +94,7 @@ table {
 }
 /* #endregion */
 
+/* #region email */
 .AJemailspacer {
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -94,12 +110,12 @@ table {
 .AJemail {
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
+	/* justify-content: flex-start; */
 	align-items: center;
 	padding: 0 30px 27px;
 	background-color: #fff;
 	font-size: 16px;
-	width: 100%;
+	max-width: 1200px;
 }
 
 .AJemailtitle {
@@ -162,4 +178,61 @@ table {
 
 	height: auto;
 	
+}
+
+/* #endregion */
+
+.AJbottomfooter {
+	background-color: #000;
+	width:100%;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* #region engage */
+
+.AJengage {
+	display: flex;
+	justify-content: center;
+
+	box-sizing: border-box;
+	max-width: 1200px;
+	padding: 40px 0 17px;
+	
+	border-bottom: 1px solid #666;
+}
+
+.AJengageitem {
+	width: 25%;
+	box-sizing: border-box;
+
+	padding: 0 30px;
+	margin-bottom: 9px;
+}
+
+.AJengagetitle {
+	color: #a1c900;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+
+	margin-bottom: 12px;
+}
+
+.AJengagetext {
+	color: #ccc;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5;
+}
+
+.AJengagelink {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.AJengagelink:hover {
+	color: #fff;
 }
