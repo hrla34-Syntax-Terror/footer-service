@@ -278,12 +278,51 @@ table {
 	color: #ccc;
 	fill: #ccc;
 	display: flex;
+
+	font-family: 'Roboto', sans-serif;
+
+	padding: 40px 0;
+
+	border-bottom: 1px solid #666;
 }
 
 .AJcontactmethod {
 	width: 25%;
+	display: flex;
+}
+
+.AJcontactmethod1 {
+	padding-right: 30px;
+}
+.AJcontactmethod2 {
+	padding: 0 30px 0 15px;
+}
+.AJcontactmethod3 {
+	padding-left: 30px;
+}
+.AJcontactmethod4 {
 	padding-left: 45px;
-	
+}
+
+.AJcontacticon {
+	height: 25.6px;
+	margin-top: -4px;
+}
+
+.AJcontactmethodsection {
+	padding-left: 10px;
+}
+
+.AJcontactmethodtitle {
+	font-size: 18px;
+	font-weight: 600;
+
+	margin-bottom: 12px;
+}
+
+.AJcontactdetails {
+	font-size: 16px;
+	line-height: 1.5;
 }
 
 
