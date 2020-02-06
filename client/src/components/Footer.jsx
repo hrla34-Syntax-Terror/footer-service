@@ -1,4 +1,5 @@
 import React from 'react';
+import Feedback from './Feedback.jsx';
 
 class Footer extends React.Component {
   constructor(props) {
@@ -7,7 +8,10 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <div>Footer</div>
+      <div>
+        Footer
+        <Feedback></Feedback>
+      </div>
     )
   }
 }
