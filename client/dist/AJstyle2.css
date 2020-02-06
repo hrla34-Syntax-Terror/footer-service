@@ -268,3 +268,23 @@ table {
 .AJlinks li:hover {
 	color: #fff;
 }
+
+/* #endregion */
+
+/* #region contact */
+
+.AJcontact{
+	width: 1200px;
+	color: #ccc;
+	fill: #ccc;
+	display: flex;
+}
+
+.AJcontactmethod {
+	width: 25%;
+	padding-left: 45px;
+	
+}
+
+
+/* #end region */
